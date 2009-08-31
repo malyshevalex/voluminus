@@ -1,0 +1,8 @@
+#!/bin/sh
+
+APP=voluminus
+PROGDIR=
+PYTHON_EXEC=/usr/bin/python
+
+cd $PROGDIR
+exec ${PYTHON_EXEC} -OO $APP.py "$@"
